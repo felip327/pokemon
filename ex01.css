@@ -1,0 +1,34 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  align-content: normal;
+  gap: 16px;
+}
+
+.item-1, .item-2, .item-3 {
+  flex-basis: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.item-1 {
+  background-color: #FFCB05; 
+}
+
+.item-2 {
+  background-color: #3D3D3D; 
+}
+
+.item-3 {
+  background-color: #1C75BC; 
+}

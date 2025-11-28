@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-content: normal;
+    gap: 16px;
+    height: 400px;
+}
+
+.item-1, .item-2, .item-3 {
+  flex-basis: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.item-1 {
+  background-color: #b87d00; 
+}
+
+.item-2 {
+  background-color: #cdf1ff; 
+}
+
+.item-3 {
+  background-color: #ffa7f0; 
+}
